@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Syed Dilawar Abbas – Fall 2026 Timetable</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f1fb;--bg2:#e6f4f1;--ink:#17152b;--mut:#6b6885;--glass:rgba(255,255,255,.7);--bd:rgba(23,21,43,.1);--a:#7c5cff;--b:#00b8a9;--c:#ff6b8b;--f:#ff9f1c;--cons:#17152b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0c1f;--bg2:#0a1f26;--ink:#f1efff;--mut:#9d99bd;--glass:rgba(255,255,255,.07);--bd:rgba(255,255,255,.14);--cons:#f1efff}}
+:root[data-theme="dark"]{--bg:#0e0c1f;--bg2:#0a1f26;--ink:#f1efff;--mut:#9d99bd;--glass:rgba(255,255,255,.07);--bd:rgba(255,255,255,.14);--cons:#f1efff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,sans-serif;font-size:14px;background:radial-gradient(circle at 10% 0%,rgba(124,92,255,.35),transparent 45%),radial-gradient(circle at 95% 30%,rgba(0,184,169,.28),transparent 45%),radial-gradient(circle at 30% 100%,rgba(255,107,139,.25),transparent 45%),linear-gradient(160deg,var(--bg),var(--bg2));background-attachment:fixed}
+.wrap{max-width:1050px;margin:0 auto;padding:30px 16px 50px}
+.hero{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;margin-bottom:22px}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:5px 12px;border-radius:99px;background:linear-gradient(90deg,var(--a),var(--c));color:#fff}
+h1{margin:10px 0 4px;font-size:clamp(30px,6vw,52px);font-weight:800;letter-spacing:-1.5px;line-height:1.05}
+h1 span{background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{margin:0;color:var(--mut)}
+.glass{background:var(--glass);border:1px solid var(--bd);border-radius:22px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.who{padding:14px 18px;font-size:13px;line-height:1.6}
+.who b{font-size:15px}
+.scroll{overflow-x:auto;padding:14px}
+.grid{min-width:720px;display:grid;grid-template-columns:48px repeat(5,1fr);gap:0 8px}
+.hd{text-align:center;font-weight:800;font-size:13px;padding:8px 0 12px}
+.hd.today{color:var(--a)}
+.hd.today:after{content:"";display:block;width:6px;height:6px;border-radius:50%;background:var(--a);margin:4px auto 0}
+.times{position:relative;height:700px}
+.times i{position:absolute;right:6px;font-style:normal;font-size:11px;color:var(--mut);transform:translateY(-50%)}
+.col{position:relative;height:700px;border-radius:16px;background:repeating-linear-gradient(180deg,transparent 0 69px,var(--bd) 69px 70px)}
+.blk{position:absolute;left:4px;right:4px;border-radius:14px;padding:9px 11px;color:#fff;overflow:hidden;font-size:11px;line-height:1.35;box-shadow:0 8px 22px rgba(0,0,0,.18)}
+.blk b{display:block;font-size:14px;font-weight:800}
+.blk em{font-style:normal;opacity:.92;display:block}
+.pill{display:inline-block;margin-top:5px;padding:2px 8px;border-radius:99px;background:rgba(255,255,255,.25);font-weight:700}
+.blk.cons{background:transparent;color:var(--ink);border:2px dashed var(--cons);box-shadow:none}
+.blk.cons .pill{background:var(--cons);color:var(--bg)}
+.wk{text-align:center;color:var(--mut);font-size:12px;padding:6px 0 2px}
+h2{font-size:20px;font-weight:800;margin:34px 0 12px;letter-spacing:-.5px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{padding:16px;position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--k)}
+.card h3{margin:0 0 2px 6px;font-size:22px;font-weight:800;color:var(--k)}
+.card small{margin-left:6px;color:var(--mut)}
+.card dl{margin:12px 0 0 6px;display:grid;grid-template-columns:auto 1fr;gap:5px 12px}
+.card dt{color:var(--mut)}.card dd{margin:0;font-weight:700}
+.cl{display:flex;gap:14px;flex-wrap:wrap;padding:16px 18px;align-items:center}
+.cl div{flex:1 1 200px}
+.note{margin-top:26px;padding:16px 20px;font-weight:500;border-left:6px solid var(--c)}
+.note b{color:var(--c)}
+footer{margin-top:26px;text-align:center;color:var(--mut);font-size:11px}
+</style></head><body><div class="wrap">
+<div class="hero"><div><span class="tag">FALL 2026</span><h1>Database <span>Lab Timetable</span></h1><p>Pick your section, find your room, and know when to catch me.</p></div>
+<div class="glass who"><b>Syed Dilawar Abbas</b><br>dilawar.abbas@gift.edu.pk<br>Classes start 26-10-2026</div></div>
+
+<div class="glass scroll"><div class="grid" id="g"></div><div class="wk">Saturday and Sunday: no classes</div></div>
+
+<h2>Your section</h2>
+<div class="cards" id="cards"></div>
+
+<h2>Consultation hours</h2>
+<div class="glass cl"><div><b>Monday</b><br>11:30 AM – 1:00 PM</div><div><b>Tuesday</b><br>12:00 – 2:00 PM</div><div><b>Thursday</b><br>12:00 – 2:00 PM</div></div>
+
+<div class="glass note"><b>Note:</b> If you have any queries, email me from your official email only.</div>
+<footer>Designed by Claude · Anthropic</footer>
+</div>
+<script>
+var S=8,H=70,K={A:'#7c5cff',B:'#00b8a9',C:'#ff6b8b',F:'#ff9f1c'};
+var D=['Mon','Tue','Wed','Thu','Fri'];
+var ev=[
+[0,'08:00','11:00','Lab A','CS-144L','C-LAB-6','A'],[0,'11:30','13:00','Consultation','Open to all','','x'],[0,'14:15','17:15','Lab F','CS-146L','C-LAB-5','F'],
+[1,'12:00','14:00','Consultation','Open to all','','x'],
+[2,'12:30','15:45','Lab B','CS-144L','C-LAB-8','B'],
+[3,'12:00','14:00','Consultation','Open to all','','x'],
+[4,'08:00','10:50','Lab C','CS-144L','C-LAB-11','C']];
+function m(x){var p=x.split(':');return +p[0]+p[1]/60}
+var t=new Date().getDay()-1;
+var h='<div></div>'+D.map(function(d,i){return '<div class="hd'+(i==t?' today':'')+'">'+d.toUpperCase()+'</div>'}).join('');
+var tm='<div class="times">';for(var i=S;i<=18;i++)tm+='<i style="top:'+((i-S)*H)+'px">'+(i>12?i-12:i)+(i<12?'a':'p')+'</i>';
+h+=tm+'</div>';
+for(var d=0;d<5;d++){h+='<div class="col">';
+ ev.filter(function(e){return e[0]==d}).forEach(function(e){
+  var c=e[6]=='x';
+  h+='<div class="blk'+(c?' cons':'')+'" style="top:'+((m(e[1])-S)*H+2)+'px;height:'+((m(e[2])-m(e[1]))*H-4)+'px;'+(c?'':'background:linear-gradient(150deg,'+K[e[6]]+',color-mix(in srgb,'+K[e[6]]+' 65%,#000))')+'"><b>'+e[3]+'</b><em>'+e[1]+' – '+e[2]+'</em>'+(e[5]?'<span class="pill">'+e[5]+'</span>':'<span class="pill">Drop in</span>')+'</div>';
+ });h+='</div>'}
+document.getElementById('g').innerHTML=h;
+var P=[['A','Monday','08:00 – 11:00','C-LAB-6','CS-144L'],['B','Wednesday','12:30 – 15:45','C-LAB-8','CS-144L'],['C','Friday','08:00 – 10:50','C-LAB-11','CS-144L'],['F','Monday','14:15 – 17:15','C-LAB-5','CS-146L']];
+document.getElementById('cards').innerHTML=P.map(function(p){return '<div class="glass card" style="--k:'+K[p[0]]+'"><h3>Lab '+p[0]+'</h3><small>'+p[4]+' · Database System Lab</small><dl><dt>Day</dt><dd>'+p[1]+'</dd><dt>Time</dt><dd>'+p[2]+'</dd><dt>Room</dt><dd>'+p[3]+'</dd></dl></div>'}).join('');
+</script></body></html>
